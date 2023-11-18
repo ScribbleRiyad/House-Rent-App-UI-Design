@@ -1,0 +1,58 @@
+name: rent_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_riverpod: ^2.1.3
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_rating_bar: ^4.0.0
+  google_maps_flutter: ^2.0.0
+  pin_code_fields: ^7.3.0
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Raleway
+      fonts: 
+        - asset: assets/fonts/RalewayBold.ttf
+          weight: 700
+        - asset: assets/fonts/RalewayMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewayRomanExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/RalewayRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RalewaySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RalewayRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RalewayRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RalewayRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RalewayRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewayExtraBold.ttf
+          weight: 800
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
